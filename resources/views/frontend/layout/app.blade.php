@@ -32,43 +32,16 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/enorsia/pfd-global-cdn/assets/css/footer.css" />
     @endif
 
+    @yield('css')
+
 </head>
 
 <body>
 
     @include('frontend.layout.header')
-
-
-
-    @include('frontend.home.video')
-
-    @include('frontend.home.heading')
-
-    @include('frontend.home.location')
-
-    @include('frontend.home.tab')
-
-    @include('frontend.home.process')
-
-    @include('frontend.home.looking')
-
-    @include('frontend.home.tech')
-
-    @include('frontend.home.partner')
-
-    @include('frontend.home.card')
-
-    @include('frontend.home.img_box')
-
-    @include('frontend.home.contact_form')
-
-
-
+    @yield('content')
     @include('frontend.layout.footer')
-
-    <!-- Bottom to Top -->
     <i id="scrollToTopBtn" class="fa-solid fa-angles-up"></i>
-    <!-- End Bottom to Top -->
 
 
     @if (app()->environment('local'))
@@ -88,6 +61,8 @@
     @endif
 
     @include('frontend.layout.script')
+
+    @yield('js')
 
 </body>
 </html>
