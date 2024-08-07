@@ -19,7 +19,7 @@
                         <div class="map_item_top">
                             <a target="_blank" href="www.pfd-global.com">
                                 <div class="map_logo">
-                                    <img src="./assets/image/LOGOS/PFD GLOBAL.jpg" alt="" />
+                                    <img src="{{asset('frontend')}}/assets/image/LOGOS/PFD GLOBAL.jpg" alt="" />
                                 </div>
                                 <div class="map_desc">
                                     <h6>PFD global company ltd.</h6>
@@ -41,7 +41,7 @@
                         <div class="map_item_top">
                             <a target="_blank" href="">
                                 <div class="map_logo">
-                                    <img src="./assets/image/LOGOS/PFD CN.jpg" alt="" />
+                                    <img src="{{asset('frontend')}}/assets/image/LOGOS/PFD CN.jpg" alt="" />
                                 </div>
                                 <div class="map_desc">
                                     <h6>PFD CANADA</h6>
@@ -62,7 +62,7 @@
                         <div class="map_item_top">
                             <a target="_blank" href="">
                                 <div class="map_logo">
-                                    <img src="./assets/image/LOGOS/PFD BD.jpg" alt="" />
+                                    <img src="{{asset('frontend')}}/assets/image/LOGOS/PFD BD.jpg" alt="" />
                                 </div>
                                 <div class="map_desc">
                                     <h6>PFD Bangladesh Ltd</h6>
@@ -83,7 +83,7 @@
                         <div class="map_item_top">
                             <a href="http://" target="_blank">
                                 <div class="map_logo">
-                                    <img src="./assets/image/LOGOS/PFD GM.jpg" alt="" />
+                                    <img src="{{asset('frontend')}}/assets/image/LOGOS/PFD GM.jpg" alt="" />
                                 </div>
                                 <div class="map_desc">
                                     <h6>pfd germany gmbh</h6>
@@ -104,7 +104,7 @@
                         <div class="map_item_top">
                             <a href="https://enorsia.com/" target="_blank">
                                 <div class="map_logo">
-                                    <img src="./assets/image/LOGOS/enosia_logo.png" alt="" />
+                                    <img src="{{asset('frontend')}}/assets/image/LOGOS/enosia_logo.png" alt="" />
                                 </div>
                                 <div class="map_desc">
                                     <h6>pfd enorsia uk ltd</h6>
@@ -125,7 +125,7 @@
                         <div class="map_item_top">
                             <a href="http://" target="_blank">
                                 <div class="map_logo">
-                                    <img src="./assets/image/LOGOS/EN PK.jpg" alt="" />
+                                    <img src="{{asset('frontend')}}/assets/image/LOGOS/EN PK.jpg" alt="" />
                                 </div>
                                 <div class="map_desc">
                                     <h6>enorsia pfd pvt. ltd</h6>

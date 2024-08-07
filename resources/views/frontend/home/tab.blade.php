@@ -48,7 +48,7 @@
                                 <div class="tab_item_bottom">
                                     <div class="tab_item_bottom_one tab_item_bottom_same">
                                         <div class="tab_item_bottom_same_img">
-                                            <img src="./assets/image/web-1.jpg" alt="" />
+                                            <img src="{{asset('frontend')}}/assets/image/web-1.jpg" alt="" />
                                         </div>
                                         <div class="tab_item_bottom_same_text">
                                             <h3>Design &-Innovation</h3>
@@ -79,12 +79,12 @@
                                             </p>
                                         </div>
                                         <div class="tab_item_bottom_same_img">
-                                            <img src="./assets/image/web-3.jpg" alt="" />
+                                            <img src="{{asset('frontend')}}/assets/image/web-3.jpg" alt="" />
                                         </div>
                                     </div>
                                     <div class="tab_item_bottom_one tab_item_bottom_same">
                                         <div class="tab_item_bottom_same_img">
-                                            <img src="./assets/image/web-1.jpg" alt="" />
+                                            <img src="{{asset('frontend')}}/assets/image/web-1.jpg" alt="" />
                                         </div>
                                         <div class="tab_item_bottom_same_text">
                                             <h3>Co-Creation</h3>
@@ -121,7 +121,7 @@
                                 <div class="tab_item_bottom">
                                     <div class="tab_item_bottom_one tab_item_bottom_same">
                                         <div class="tab_item_bottom_same_img">
-                                            <img src="./assets/image/supply-1.jpg" alt="" />
+                                            <img src="{{asset('frontend')}}/assets/image/supply-1.jpg" alt="" />
                                         </div>
                                         <div class="tab_item_bottom_same_text">
                                             <h3>Fabric Development</h3>
@@ -148,13 +148,13 @@
                                             </p>
                                         </div>
                                         <div class="tab_item_bottom_same_img">
-                                            <img src="./assets/image/supply-2.jpg" alt="" />
+                                            <img src="{{asset('frontend')}}/assets/image/supply-2.jpg" alt="" />
                                         </div>
                                     </div>
 
                                     <div class="tab_item_bottom_one tab_item_bottom_same">
                                         <div class="tab_item_bottom_same_img">
-                                            <img src="./assets/image/supply-3.jpg" alt="" />
+                                            <img src="{{asset('frontend')}}/assets/image/supply-3.jpg" alt="" />
                                         </div>
                                         <div class="tab_item_bottom_same_text">
                                             <h3>Safety & Liberty Protocols</h3>
@@ -187,13 +187,13 @@
                                             </p>
                                         </div>
                                         <div class="tab_item_bottom_same_img">
-                                            <img src="./assets/image/supply-4.jpg" alt="" />
+                                            <img src="{{asset('frontend')}}/assets/image/supply-4.jpg" alt="" />
                                         </div>
                                     </div>
 
                                     <div class="tab_item_bottom_one tab_item_bottom_same">
                                         <div class="tab_item_bottom_same_img">
-                                            <img src="./assets/image/supply-5.jpg" alt="" />
+                                            <img src="{{asset('frontend')}}/assets/image/supply-5.jpg" alt="" />
                                         </div>
                                         <div class="tab_item_bottom_same_text">
                                             <h3>Speed to Market</h3>
@@ -227,12 +227,12 @@
                                             </p>
                                         </div>
                                         <div class="tab_item_bottom_same_img">
-                                            <img src="./assets/image/supply-6.jpg" alt="" />
+                                            <img src="{{asset('frontend')}}/assets/image/supply-6.jpg" alt="" />
                                         </div>
                                     </div>
                                     <div class="tab_item_bottom_one tab_item_bottom_same">
                                         <div class="tab_item_bottom_same_img">
-                                            <img src="./assets/image/supply-7.jpg" alt="" />
+                                            <img src="{{asset('frontend')}}/assets/image/supply-7.jpg" alt="" />
                                         </div>
                                         <div class="tab_item_bottom_same_text">
                                             <h3>Fabric Quality Testing & Inspection</h3>
@@ -267,7 +267,7 @@
                                 <div class="tab_item_bottom">
                                     <div class="tab_item_bottom_one tab_item_bottom_same">
                                         <div class="tab_item_bottom_same_img">
-                                            <img src="./assets/image/manufacturer-1.jpg" alt="" />
+                                            <img src="{{asset('frontend')}}/assets/image/manufacturer-1.jpg" alt="" />
                                         </div>
                                         <div class="tab_item_bottom_same_text">
                                             <h3>Factories of the Future</h3>
@@ -291,12 +291,12 @@
                                             </p>
                                         </div>
                                         <div class="tab_item_bottom_same_img">
-                                            <img src="./assets/image/manufacturer-2.jpg" alt="" />
+                                            <img src="{{asset('frontend')}}/assets/image/manufacturer-2.jpg" alt="" />
                                         </div>
                                     </div>
                                     <div class="tab_item_bottom_one tab_item_bottom_same">
                                         <div class="tab_item_bottom_same_img">
-                                            <img src="./assets/image/manufacturer-3.jpg" alt="" />
+                                            <img src="{{asset('frontend')}}/assets/image/manufacturer-3.jpg" alt="" />
                                         </div>
                                         <div class="tab_item_bottom_same_text">
                                             <h3>People Centric</h3>
@@ -321,12 +321,12 @@
                                             </p>
                                         </div>
                                         <div class="tab_item_bottom_same_img">
-                                            <img src="./assets/image/manufacturer-4.jpg" alt="" />
+                                            <img src="{{asset('frontend')}}/assets/image/manufacturer-4.jpg" alt="" />
                                         </div>
                                     </div>
                                     <div class="tab_item_bottom_one tab_item_bottom_same">
                                         <div class="tab_item_bottom_same_img">
-                                            <img src="./assets/image/manufacturer-5.jpg" alt="" />
+                                            <img src="{{asset('frontend')}}/assets/image/manufacturer-5.jpg" alt="" />
                                         </div>
                                         <div class="tab_item_bottom_same_text">
                                             <h3>Zero-Defect Environment</h3>
@@ -355,7 +355,7 @@
                                 <div class="tab_item_bottom">
                                     <div class="tab_item_bottom_one tab_item_bottom_same">
                                         <div class="tab_item_bottom_same_img">
-                                            <img src="./assets/image/beyond-1.jpg" alt="" />
+                                            <img src="{{asset('frontend')}}/assets/image/beyond-1.jpg" alt="" />
                                         </div>
                                         <div class="tab_item_bottom_same_text">
                                             <h3>Sourcing Model of the Future</h3>
@@ -385,7 +385,7 @@
                                             </p>
                                         </div>
                                         <div class="tab_item_bottom_same_img">
-                                            <img src="./assets/image/beyond-2.jpg" alt="" />
+                                            <img src="{{asset('frontend')}}/assets/image/beyond-2.jpg" alt="" />
                                         </div>
                                     </div>
                                 </div>
@@ -400,7 +400,7 @@
                                 <div class="tab_item_bottom">
                                     <div class="tab_item_bottom_one tab_item_bottom_same">
                                         <div class="tab_item_bottom_same_img">
-                                            <img src="./assets/image/technology-1.jpg" alt="" />
+                                            <img src="{{asset('frontend')}}/assets/image/technology-1.jpg" alt="" />
                                         </div>
                                         <div class="tab_item_bottom_same_text">
                                             <h3>Tailor made PFD-Global interfaced with SAP</h3>
@@ -435,12 +435,12 @@
                                             </p>
                                         </div>
                                         <div class="tab_item_bottom_same_img">
-                                            <img src="./assets/image/technology-2.jpg" alt="" />
+                                            <img src="{{asset('frontend')}}/assets/image/technology-2.jpg" alt="" />
                                         </div>
                                     </div>
                                     <div class="tab_item_bottom_one tab_item_bottom_same">
                                         <div class="tab_item_bottom_same_img">
-                                            <img src="./assets/image/technology-3.jpg" alt="" />
+                                            <img src="{{asset('frontend')}}/assets/image/technology-3.jpg" alt="" />
                                         </div>
                                         <div class="tab_item_bottom_same_text">
                                             <h3>3D Design Capabilities</h3>
@@ -467,7 +467,7 @@
                                             </p>
                                         </div>
                                         <div class="tab_item_bottom_same_img">
-                                            <img src="./assets/image/technology-4.jpg" alt="" />
+                                            <img src="{{asset('frontend')}}/assets/image/technology-4.jpg" alt="" />
                                         </div>
                                     </div>
                                 </div>

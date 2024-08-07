@@ -27,14 +27,20 @@
                     </div>
 
                     <div class="tech_img">
-                        <img src="https://imagedelivery.net/z7kNRC7XttEX5-KXLRrx3A/7d54637a-b68c-4fa2-411e-97740553c600/public?cache-control=max-age%3D86400"
-                            alt="MEN" title="MEN" />
+                        @if (Str::isMobile())
+                            <img src="https://imagedelivery.net/z7kNRC7XttEX5-KXLRrx3A/7d54637a-b68c-4fa2-411e-97740553c600/w=205" alt="MEN" title="MEN" />
+                        @else
+                            <img src="https://imagedelivery.net/z7kNRC7XttEX5-KXLRrx3A/7d54637a-b68c-4fa2-411e-97740553c600/w=350" alt="MEN" title="MEN" />
+                        @endif
                     </div>
                 </div>
                 <div class="tech_body two">
                     <div class="tech_img">
-                        <img src="https://imagedelivery.net/z7kNRC7XttEX5-KXLRrx3A/6e595f57-1dbe-4679-ac86-63fdeb781a00/public?cache-control=max-age%3D86400"
-                            alt="WOMEN" />
+                        @if (Str::isMobile())
+                            <img src="https://imagedelivery.net/z7kNRC7XttEX5-KXLRrx3A/6e595f57-1dbe-4679-ac86-63fdeb781a00/w=205" alt="WOMEN" />
+                        @else
+                            <img src="https://imagedelivery.net/z7kNRC7XttEX5-KXLRrx3A/6e595f57-1dbe-4679-ac86-63fdeb781a00/w=350" alt="WOMEN" />
+                        @endif
                     </div>
                     <div class="tech_text two">
                         <h2>Women's Fashion</h2>
@@ -83,14 +89,20 @@
                     </div>
 
                     <div class="tech_img">
-                        <img src="https://imagedelivery.net/z7kNRC7XttEX5-KXLRrx3A/1707396765-344307gYBR.JPG/w=350?cache-control=max-age%3D86400"
-                            alt="BOY" />
+                        @if (Str::isMobile())
+                            <img src="https://imagedelivery.net/z7kNRC7XttEX5-KXLRrx3A/1707396765-344307gYBR.JPG/w=205" alt="BOY" />
+                        @else
+                            <img src="https://imagedelivery.net/z7kNRC7XttEX5-KXLRrx3A/1707396765-344307gYBR.JPG/w=350" alt="BOY" />
+                        @endif
                     </div>
                 </div>
                 <div class="tech_body two">
                     <div class="tech_img">
-                        <img src="https://imagedelivery.net/z7kNRC7XttEX5-KXLRrx3A/1707800225-64315Lzayu.JPG/w=350?cache-control=max-age%3D86400"
-                            alt="GIRL" />
+                        @if (Str::isMobile())
+                            <img src="https://imagedelivery.net/z7kNRC7XttEX5-KXLRrx3A/1707800225-64315Lzayu.JPG/w=205" alt="GIRL" />
+                        @else
+                            <img src="https://imagedelivery.net/z7kNRC7XttEX5-KXLRrx3A/1707800225-64315Lzayu.JPG/w=350" alt="GIRL" />
+                        @endif
                     </div>
                     <div class="tech_text two">
                         <h2>Girl's Fashion</h2>

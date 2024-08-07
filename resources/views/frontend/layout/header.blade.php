@@ -51,7 +51,7 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid header_body">
             <a class="navbar-brand" href="./index.html">
-                <img src="./assets/image/LOGOS/PFD GLOBAL.jpg" alt="" />
+                <img src="{{asset('frontend')}}/assets/image/LOGOS/PFD GLOBAL.jpg" alt="" />
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
