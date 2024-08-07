@@ -21,7 +21,7 @@
                     <div class="partner_body">
                         <div class="partner_item">
                             <div class="partner_logo">
-                                <img src="./assets/image/LOGOS/accord.png" alt="" />
+                                <img src="{{asset('frontend')}}/assets/image/LOGOS/accord.png" alt="" />
                             </div>
                             <div class="partner_text">
                                 <p>
@@ -39,7 +39,7 @@
                         </div>
                         <div class="partner_item">
                             <div class="partner_logo">
-                                <img src="./assets/image/LOGOS/detox.png" alt="" />
+                                <img src="{{asset('frontend')}}/assets/image/LOGOS/detox.png" alt="" />
                             </div>
                             <div class="partner_text">
                                 <p>
@@ -56,7 +56,7 @@
                         </div>
                         <div class="partner_item">
                             <div class="partner_logo">
-                                <img src="./assets/image/LOGOS/bhive.png" alt="" />
+                                <img src="{{asset('frontend')}}/assets/image/LOGOS/bhive.png" alt="" />
                             </div>
                             <div class="partner_text">
                                 <p>
@@ -67,7 +67,7 @@
                         </div>
                         <div class="partner_item">
                             <div class="partner_logo">
-                                <img src="./assets/image/LOGOS/amfori.png" alt="" />
+                                <img src="{{asset('frontend')}}/assets/image/LOGOS/amfori.png" alt="" />
                             </div>
                             <div class="partner_text">
                                 <p>

@@ -18,7 +18,7 @@
                         <div class="box_left">
                             <div class="box_img">
                                 <div class="slide">
-                                    <img src="./assets/image/1-1.png" alt="Image 1" />
+                                    <img src="{{asset('frontend')}}/assets/image/1-1.png" alt="Image 1" />
                                 </div>
                             </div>
                         </div>
@@ -30,7 +30,7 @@
                     <div class="box_items">
                         <div class="box_left">
                             <div class="box_img">
-                                <img src="./assets/image/2-1.png" alt="Image 2" />
+                                <img src="{{asset('frontend')}}/assets/image/2-1.png" alt="Image 2" />
                             </div>
                         </div>
                     </div>
@@ -41,7 +41,7 @@
                     <div class="box_items">
                         <div class="box_left">
                             <div class="box_img">
-                                <img src="./assets/image/3-1.png" alt="Image 3" />
+                                <img src="{{asset('frontend')}}/assets/image/3-1.png" alt="Image 3" />
                             </div>
                         </div>
                     </div>
@@ -52,7 +52,7 @@
                     <div class="box_items">
                         <div class="box_left">
                             <div class="box_img">
-                                <img src="./assets/image/4-1.png" alt="Image 4" />
+                                <img src="{{asset('frontend')}}/assets/image/4-1.png" alt="Image 4" />
                             </div>
                         </div>
                     </div>
@@ -63,7 +63,7 @@
                     <div class="box_items">
                         <div class="box_left">
                             <div class="box_img">
-                                <img src="./assets/image/7-1.png" alt="Image 5" />
+                                <img src="{{asset('frontend')}}/assets/image/7-1.png" alt="Image 5" />
                             </div>
                         </div>
                     </div>
@@ -74,7 +74,7 @@
                     <div class="box_items">
                         <div class="box_left">
                             <div class="box_img">
-                                <img src="./assets/image/8-1.png" alt="Image 6" />
+                                <img src="{{asset('frontend')}}/assets/image/8-1.png" alt="Image 6" />
                             </div>
                         </div>
                     </div>
@@ -85,7 +85,7 @@
                     <div class="box_items">
                         <div class="box_left">
                             <div class="box_img">
-                                <img src="./assets/image/9-1.png" alt="Image 7" />
+                                <img src="{{asset('frontend')}}/assets/image/9-1.png" alt="Image 7" />
                             </div>
                         </div>
                     </div>
