@@ -42,7 +42,7 @@
                         </div>
                         <div class="col-md-4">
                           <input
-                            type="tel"
+                            type="number"
                             class="form-control"
                             id="phone"
                             placeholder="Telephone"
@@ -62,7 +62,9 @@
                           <div class="error-message" id="message-error"></div>
                         </div>
                         <div class="col-12 text-center">
-                          <button type="submit" class="">Send</button>
+                          <button type="submit" id="submitBtn">
+                            Send
+                        </button>
                         </div>
                       </form>
                       <div id="alert-container"></div>

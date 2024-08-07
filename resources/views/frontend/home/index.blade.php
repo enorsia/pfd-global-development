@@ -12,7 +12,8 @@
 
     @include('frontend.home.about-pfd')
 
-    @include('frontend.home.location')
+    {{-- @include('frontend.home.location') --}}
+    @include('frontend.home.location-two')
 
     @include('frontend.home.manufacturing')
 

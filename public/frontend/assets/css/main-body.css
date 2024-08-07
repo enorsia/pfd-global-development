@@ -44,7 +44,7 @@
 .looking_button a{
     padding: 13px 29px;
     line-height: 17px;
-    font-size: 14px; 
+    font-size: 14px;
     background: #000;
     color: #fff;
     transition: .3s;
@@ -89,7 +89,7 @@ padding-right: 50px;
 }
 .tech_img img{
     width:500px;
-    height: auto; 
+    height: auto;
 }
 #tech_two{
     padding: 50px 0px;
@@ -128,13 +128,13 @@ padding-right: 50px;
 .process_body .process_item:nth-child(1),
 .process_body .process_item:nth-child(3),
 .process_body .process_item:nth-child(5) {
-    background: #ECECEC; 
+    background: #ECECEC;
 }
 
 .process_body .process_item:nth-child(2),
 .process_body .process_item:nth-child(4),
 .process_body .process_item:nth-child(6) {
-    background: #F4F4F4; 
+    background: #F4F4F4;
 }
 .process_body .process_item{
     padding: 50px;
@@ -229,7 +229,7 @@ padding-right: 50px;
     text-align: justify;
 }
 /******** Partner ***********/
-#partner{ 
+#partner{
     padding: 80px 0px 40px 0px;
     background: #F9F9F9;
 }
@@ -319,16 +319,16 @@ padding-right: 50px;
     text-decoration: none;
 }
 #img_box .owl-carousel .owl-nav button.owl-next{
-    position:absolute; 
-    top:40%; 
-    right: 0; 
-    transform:translate(-50%, -50%); 
+    position:absolute;
+    top:40%;
+    right: 0;
+    transform:translate(-50%, -50%);
 }
 #img_box .owl-carousel .owl-nav button.owl-prev{
-    position:absolute; 
-    top:40%; 
-    left:  20px; 
-    transform:translate(-50%, -50%); 
+    position:absolute;
+    top:40%;
+    left:  20px;
+    transform:translate(-50%, -50%);
 }
 
 .owl-theme .owl-dots .owl-dot {
@@ -347,6 +347,14 @@ padding-right: 50px;
 
 
 /*********** Location *******/
+
+#map_two iframe{
+    width: 100%;
+}
+.location_two{
+    width: 100%;
+    overflow: hidden;
+}
 #location{
     padding: 100px 0px 0px 0px;
 }
@@ -435,7 +443,7 @@ color: blue;
     font-size: 14px;
     border: 2px solid #ccc;
     border-radius: 0px !important;
-    
+
 }
 .contact_form input:focus, .contact_form textarea:focus{
    box-shadow: none;
@@ -460,10 +468,10 @@ color: blue;
 }
 /****** Responsive Css Code ********/
 @media (max-width: 1400px){
-  
+
 }
 @media (max-width: 1300px){
-   
+
     .tech_img img {
         width: 100%;
         height: auto;
@@ -564,7 +572,7 @@ color: blue;
         line-height: 28px;
         margin-top: 15px;
     }
-   
+
     .tech_text p {
         font-size: 15px;
         margin: 10px 0px;
@@ -622,7 +630,7 @@ color: blue;
     }
 }
 @media (max-width: 1024px){
-    
+
     .looking_title h2 {
         font-size: 25px;
     }
@@ -630,14 +638,14 @@ color: blue;
         font-size: 23px;
         margin-bottom: 10px;
     }
-   
+
     .process_title h2 {
         font-size: 25px;
     }
     .process_body .process_item {
         padding: 30px 30px;
     }
-    
+
     .img_box_top_title h2 {
         font-size: 25px;
     }
@@ -702,7 +710,7 @@ color: blue;
     .tech_text p {
         font-size: 14px;
     }
-   
+
     #manufacturing_part  .tech_text{
         order: 1;
         padding-left: 0px;
@@ -817,8 +825,8 @@ color: blue;
         margin: 7px 0px;
         line-height: 30px;
     }
-    
-   
+
+
     #tech_two {
         padding: 15px 0px;
     }
@@ -863,7 +871,7 @@ color: blue;
     .card_title p {
         text-align: justify;
     }
-   
+
     .img_box_top_title h2 {
         font-size: 20px;
         margin-bottom: 15px;
@@ -940,7 +948,7 @@ color: blue;
     #manufacturing_part .tech_img {
        margin-top: 15px;
     }
-   
+
     #process {
         padding: 30px 0px;
     }
