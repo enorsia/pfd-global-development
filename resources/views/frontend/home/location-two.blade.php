@@ -1,6 +1,6 @@
 <!-- Location Section -->
 <div id="location">
-    <div class="container-fluid">
+    <div class="location_two">
         <div class="row justify-content-center">
             <div class="col-12 text-center">
                 <div class="location_title">

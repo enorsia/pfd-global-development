@@ -351,6 +351,10 @@ padding-right: 50px;
 #map_two iframe{
     width: 100%;
 }
+.location_two{
+    width: 100%;
+    overflow: hidden;
+}
 #location{
     padding: 100px 0px 0px 0px;
 }
