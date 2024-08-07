@@ -18,7 +18,70 @@
         }
     });
 </script>
+ <!-- Form validation js code -->
+ <script>
+    document.getElementById("name").addEventListener("input", function () {
+      validateName();
+    });
 
+    document.getElementById("email").addEventListener("input", function () {
+      validateEmail();
+    });
+
+    document.getElementById("message").addEventListener("input", function () {
+      validateMessage();
+    });
+
+    document
+      .getElementById("contactForm")
+      .addEventListener("submit", function (event) {
+        var isValid = validateName() & validateEmail() & validateMessage();
+
+        if (!isValid) {
+          event.preventDefault();
+        }
+      });
+
+    function validateName() {
+      var name = document.getElementById("name").value.trim();
+      var nameError = document.getElementById("name-error");
+
+      if (name.length < 2) {
+        nameError.textContent = "Name must be at least 2 characters long.";
+        return false;
+      } else {
+        nameError.textContent = "";
+        return true;
+      }
+    }
+
+    function validateEmail() {
+      var email = document.getElementById("email").value.trim();
+      var emailError = document.getElementById("email-error");
+      var emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+
+      if (!emailPattern.test(email)) {
+        emailError.textContent = "Please enter a valid email address.";
+        return false;
+      } else {
+        emailError.textContent = "";
+        return true;
+      }
+    }
+
+    function validateMessage() {
+      var message = document.getElementById("message").value.trim();
+      var messageError = document.getElementById("message-error");
+
+      if (message.length === 0) {
+        messageError.textContent = "Message cannot be empty.";
+        return false;
+      } else {
+        messageError.textContent = "";
+        return true;
+      }
+    }
+  </script>
 <!-- Bottom to top js code-->
 <script>
     document.addEventListener("DOMContentLoaded", function() {

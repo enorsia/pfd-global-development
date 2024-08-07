@@ -18,25 +18,48 @@
             </div>
             <div class="col-lg-8 col-md-10 col-12">
                 <div class="contact_form">
-                    <form class="row g-3">
+                    <form class="row g-3" id="contactForm">
                         <div class="col-md-4">
-                            <input type="text" class="form-control" placeholder="Name" />
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="name"
+                            placeholder="Name"
+                          />
+                          <div class="error-message" id="name-error"></div>
                         </div>
                         <div class="col-md-4">
-                            <input type="email" class="form-control" placeholder="Email" />
+                          <input
+                            type="email"
+                            class="form-control"
+                            id="email"
+                            placeholder="Email"
+                          />
+                          <div class="error-message" id="email-error"></div>
                         </div>
                         <div class="col-md-4">
-                            <input type="number" class="form-control" placeholder="Telephone" />
+                          <input
+                            type="tel"
+                            class="form-control"
+                            id="telephone"
+                            placeholder="Telephone"
+                          />
+                          <div class="error-message" id="telephone-error"></div>
                         </div>
-
                         <div class="col-12">
-                            <textarea name="" id="" class="form-control" rows="10" cols="10"
-                                placeholder="Write Your Message Here..."></textarea>
+                          <textarea
+                            class="form-control"
+                            id="message"
+                            rows="10"
+                            cols="10"
+                            placeholder="Write Your Message Here..."
+                          ></textarea>
+                          <div class="error-message" id="message-error"></div>
                         </div>
                         <div class="col-12 text-center">
-                            <button type="submit" class="">Send</button>
+                          <button type="submit" class="">Send</button>
                         </div>
-                    </form>
+                      </form>
                 </div>
             </div>
         </div>
