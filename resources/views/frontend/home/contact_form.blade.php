@@ -18,13 +18,15 @@
             </div>
             <div class="col-lg-8 col-md-10 col-12">
                 <div class="contact_form">
-                    <form class="row g-3" id="contactForm">
+                    <form class="row g-3" id="contactForm" method="post" action="{{route('contact')}}">
+                        @csrf
                         <div class="col-md-4">
                           <input
                             type="text"
                             class="form-control"
                             id="name"
                             placeholder="Name"
+                            name="name"
                           />
                           <div class="error-message" id="name-error"></div>
                         </div>
@@ -34,6 +36,7 @@
                             class="form-control"
                             id="email"
                             placeholder="Email"
+                            name="email"
                           />
                           <div class="error-message" id="email-error"></div>
                         </div>
@@ -41,8 +44,9 @@
                           <input
                             type="tel"
                             class="form-control"
-                            id="telephone"
+                            id="phone"
                             placeholder="Telephone"
+                            name="phone"
                           />
                           <div class="error-message" id="telephone-error"></div>
                         </div>
@@ -53,6 +57,7 @@
                             rows="10"
                             cols="10"
                             placeholder="Write Your Message Here..."
+                            name="message"
                           ></textarea>
                           <div class="error-message" id="message-error"></div>
                         </div>
@@ -60,6 +65,7 @@
                           <button type="submit" class="">Send</button>
                         </div>
                       </form>
+                      <div id="alert-container"></div>
                 </div>
             </div>
         </div>

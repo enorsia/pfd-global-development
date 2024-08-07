@@ -35,12 +35,46 @@
     document
       .getElementById("contactForm")
       .addEventListener("submit", function (event) {
+        event.preventDefault();
         var isValid = validateName() & validateEmail() & validateMessage();
 
         if (!isValid) {
-          event.preventDefault();
+            return false;
+        }else{
+            let formData = {
+                _token: $('input[name="_token"]').val(),
+                name: $('#name').val(),
+                email: $('#email').val(),
+                phone: $('#phone').val(),
+                message: $('#message').val()
+            };
+
+            $.ajax({
+                url: $(this).attr('action'),
+                type: 'POST',
+                data: formData,
+                success: function (response) {
+                    showAlert('success', response.message);
+                    $('#contactForm')[0].reset();
+                },
+                error: function (xhr) {
+                    let errors = xhr.responseJSON.errors;
+                    showAlert('danger', 'There were some errors in your submission.');
+                }
+            });
         }
       });
+
+      function showAlert(type, message) {
+            let alertBox = `<div class="alert alert-${type} alert-dismissible fade show" role="alert">
+                                ${message}
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            </div>`;
+            $('#alert-container').html(alertBox);
+            setTimeout(function () {
+                $('.alert').alert('close');
+            }, 10000);
+        }
 
     function validateName() {
       var name = document.getElementById("name").value.trim();
