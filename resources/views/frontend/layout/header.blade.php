@@ -24,21 +24,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="header_top_body_right">
-                        <div class="header_social">
-                            <ul>
-                                <li>
-                                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-                                </li>
-                                <li>
-                                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
-                                </li>
-                                <li>
-                                    <a href=""><i class="fa-brands fa-instagram"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>
@@ -72,17 +58,19 @@
                                 <a class="dropdown-item" href="#heading" data-target="heading">About Us</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#partner" data-target="partner">Our Partners</a>
+                                <a class="dropdown-item" href="#img_box" data-target="img_box">Our Buyers</a>
                             </li>
                             <li>
                                 <a class="dropdown-item" href="#card" data-target="card">Manufacturing Units</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" data-target="img_box" href="#img_box">Certifications</a>
+                                <a class="dropdown-item" data-target="partner" href="#partner">Certifications</a>
                             </li>
                         </ul>
                     </li>
-
+                    <li class="nav-item">
+                        <a class="nav-link" href="#location" data-target="location">Our Global Offices</a>
+                    </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
@@ -116,9 +104,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#looking" data-target="looking">Clothing</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#location" data-target="location">Our Global Offices</a>
-                    </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="#contact_form" data-target="contact_form">Contact</a>
                     </li>

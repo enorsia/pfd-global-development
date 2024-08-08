@@ -5,8 +5,9 @@
 .header_top_body{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
+    padding: 5px 0px;
 }
 .header_top_body_left ul{
     display: flex;
@@ -26,7 +27,7 @@
     font-size: 13px;
 }
 .header_top_body_left ul li a:hover{
-    color: #acacac; 
+    color: #acacac;
 }
 .header_top_body_left ul li{
     margin-right: 20px;
@@ -155,7 +156,7 @@
 }
 
 .dropdown-menu {
-    margin-top: 0; 
+    margin-top: 0;
 }
 
 /****** Responsive Css Code ********/
@@ -199,10 +200,10 @@
         height: 30px;
         font-size: 15px;
     }
-   
+
 }
 @media (max-width: 1024px){
-   
+
 }
 @media (max-width: 991px){
     #header_top {
@@ -253,7 +254,7 @@
     .header_social ul li:first-child {
         margin: 5px 10px 5px 0px;
     }
-   
+
 }
 @media (max-width: 767px){
     .navbar-collapse ul li {
@@ -297,5 +298,5 @@
     .navbar-collapse ul li a {
         font-size: 12px !important;
     }
-    
+
 }

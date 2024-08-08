@@ -9,21 +9,21 @@ $(document).ready(function () {
           items: 3,
         },
         768: {
-          items: 4,
+          items: 3,
         },
         992: {
-          items: 5,
+          items: 4,
         },
         1024: {
-            items: 6,
+            items: 5,
           },
           1200: {
-            items: 7,
+            items: 6,
           },
       },
     });
-  
-    
+
+
   });
 
 
