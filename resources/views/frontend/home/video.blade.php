@@ -5,7 +5,7 @@
             <div class="position-relative">
 
                 @if (Str::isMobile())
-                    <div style="position: relative; padding-top: 139%" class="d-block d-sm-none" id="mobile_video">
+                    <div style="position: relative; padding-top: 139%" class="" id="mobile_video">
                         <iframe title="for Mobile video" class="mobile_frame"
                             src="https://customer-uzdzcdmu6hv0jfmr.cloudflarestream.com/c24f320857786d50bbba4e8ad57c3cc7/iframe?muted=true&preload=true&loop=true&autoplay=true&poster=https%3A%2F%2Fcustomer-uzdzcdmu6hv0jfmr.cloudflarestream.com%2Fc24f320857786d50bbba4e8ad57c3cc7%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600&controls=false"
                             loading="lazy"
@@ -21,7 +21,7 @@
                             allowfullscreen="true"></iframe>
                     </div>
                 @else
-                    <div style="position: relative; padding-top: 33.49% !important" class="d-none d-sm-block"
+                    <div style="position: relative; padding-top: 33.49% !important" class=""
                         id="large_video">
                         <iframe title="for desktop video"
                             src="https://customer-uzdzcdmu6hv0jfmr.cloudflarestream.com/9d4f54f72e6c48a6c0d3186c9cc92d59/iframe?muted=true&preload=true&loop=true&autoplay=true&poster=https%3A%2F%2Fcustomer-uzdzcdmu6hv0jfmr.cloudflarestream.com%2F9d4f54f72e6c48a6c0d3186c9cc92d59%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600&controls=false"
