@@ -319,6 +319,7 @@ padding-right: 50px;
     margin: 10px;
     padding: 35px 10px;
     border-radius: 10px;
+    min-height: 145px;
 }
 #img_box .owl-carousel .owl-nav {
     display: block;
@@ -947,7 +948,9 @@ color: blue;
     .map_item_bottom iframe {
         height: 300px;
     }
-
+    .map_item_top {
+       margin-bottom: 0px;
+    }
 
     #looking {
         padding: 20px 0px 0px 0px;
