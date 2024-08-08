@@ -2,16 +2,25 @@
 <div id="process">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-8 col-md-10 col-12 text-center">
+            <div class="col-xl-10 col-lg-10 col-md-10 col-12 text-center">
                 <div class="process_title">
                     <h2>Manufacturing process - how it works</h2>
                     <span class="global_underline"><i class="fa-regular fa-snowflake"></i></span>
                     <p>
-                        Every garment we produce is <span> custom made</span>to the
-                        requirements of the customer, so we have developed a standard
-                        process which is applied to all orders. Other UK based clothing
-                        manufacturers may only work from tech packs, but we can help get
-                        designs production ready, guiding you through each step.
+                        PFD Global's extensive network fosters exceptional
+                        collaboration for our clients, offering a diverse range of
+                        products across multiple locations. We excel in sourcing
+                        high-quality fabrics from China & manufacturing garments
+                        in cost-effective regions like Bangladesh & Pakistan,
+                        ensuring optimal cost efficiency for our partners.
+                        Decades of experience has honed the efficiency of delivery
+                        systems based on strong logistics and a vast distribution
+                        network. Our offices across Asia ensures cost-effective
+                        and speedy movement of goods across countries.
+                        Our in-house creative team develops new products, keenly
+                        aware of emerging trends to give clients a further advantage.
+                        Our team also maintains rigorous quality control which is the
+                        hallmark of our enterprise.
                     </p>
                 </div>
             </div>

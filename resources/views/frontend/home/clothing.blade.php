@@ -28,6 +28,37 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-xl-10 col-lg-12 col-12">
+                <div class="tech_body two">
+                    <div class="tech_img">
+                        @if (Str::isMobile())
+                            <img src="https://imagedelivery.net/z7kNRC7XttEX5-KXLRrx3A/6e595f57-1dbe-4679-ac86-63fdeb781a00/w=205" alt="WOMEN" />
+                        @else
+                            <img src="https://imagedelivery.net/z7kNRC7XttEX5-KXLRrx3A/6e595f57-1dbe-4679-ac86-63fdeb781a00/w=350" alt="WOMEN" />
+                        @endif
+                    </div>
+                    <div class="tech_text two">
+                        <h2>Women's Fashion</h2>
+                        <p>
+                            Elevate your wardrobe with our women's fashion collection,
+                            where style meets comfort and versatility. From chic Dresses
+                            and trendy Jumpsuits to cozy Hoodies and Sweatshirts, we offer
+                            stylish options for every occasion.
+                        </p>
+                        <p>
+                            Stay fashionable with our elegant Coats and Jackets or keep it
+                            casual with Jeans, Joggers, and Leggings that promise a
+                            perfect fit and comfort. Our Tops, T-Shirts, Shirts, Blouses,
+                            and Polo Shirts offer endless possibilities for effortless
+                            style.
+                        </p>
+                        <p>
+                            Simplify your outfit choices with our coordinated Co-ords and
+                            Multipacks, or stay cool in the warmer months with our Shorts
+                            and Skirts. Complete your look with our versatile Trousers.
+                        </p>
+                    </div>
+                </div>
+
                 <div class="tech_body one">
                     <div class="tech_text">
                         <h2>Men's Fashion</h2>
@@ -59,33 +90,33 @@
                         @endif
                     </div>
                 </div>
-                <div class="tech_body two">
+ <div class="tech_body two">
                     <div class="tech_img">
                         @if (Str::isMobile())
-                            <img src="https://imagedelivery.net/z7kNRC7XttEX5-KXLRrx3A/6e595f57-1dbe-4679-ac86-63fdeb781a00/w=205" alt="WOMEN" />
+                            <img src="https://imagedelivery.net/z7kNRC7XttEX5-KXLRrx3A/1707800225-64315Lzayu.JPG/w=205" alt="GIRL" />
                         @else
-                            <img src="https://imagedelivery.net/z7kNRC7XttEX5-KXLRrx3A/6e595f57-1dbe-4679-ac86-63fdeb781a00/w=350" alt="WOMEN" />
+                            <img src="https://imagedelivery.net/z7kNRC7XttEX5-KXLRrx3A/1707800225-64315Lzayu.JPG/w=350" alt="GIRL" />
                         @endif
                     </div>
                     <div class="tech_text two">
-                        <h2>Women's Fashion</h2>
+                        <h2>Girl's Fashion</h2>
                         <p>
-                            Elevate your wardrobe with our women's fashion collection,
-                            where style meets comfort and versatility. From chic Dresses
-                            and trendy Jumpsuits to cozy Hoodies and Sweatshirts, we offer
-                            stylish options for every occasion.
+                            Discover our enchanting girls' fashion collection, designed to
+                            bring style and comfort to every occasion. From adorable
+                            Dresses and Jumpsuits to playful Co-ords and Multipacks,
+                            dressing up has never been more fun.
                         </p>
                         <p>
-                            Stay fashionable with our elegant Coats and Jackets or keep it
-                            casual with Jeans, Joggers, and Leggings that promise a
-                            perfect fit and comfort. Our Tops, T-Shirts, Shirts, Blouses,
-                            and Polo Shirts offer endless possibilities for effortless
-                            style.
+                            Our collection offers cozy Sweatshirts, Hoodies, and snug
+                            Nightwear, perfect for keeping her warm and comfortable.
+                            Explore trendy Jeans, Dungarees, Leggings, and Joggers for
+                            versatile options that suit her active lifestyle.
                         </p>
                         <p>
-                            Simplify your outfit choices with our coordinated Co-ords and
-                            Multipacks, or stay cool in the warmer months with our Shorts
-                            and Skirts. Complete your look with our versatile Trousers.
+                            Mix and match with our stylish Tops and T-Shirts for endless
+                            outfit possibilities, or stay cool with our charming Shorts.
+                            Complete her look with our fashionable Trousers, crafted for
+                            both play and special occasions.
                         </p>
                     </div>
                 </div>
@@ -121,36 +152,7 @@
                         @endif
                     </div>
                 </div>
-                <div class="tech_body two">
-                    <div class="tech_img">
-                        @if (Str::isMobile())
-                            <img src="https://imagedelivery.net/z7kNRC7XttEX5-KXLRrx3A/1707800225-64315Lzayu.JPG/w=205" alt="GIRL" />
-                        @else
-                            <img src="https://imagedelivery.net/z7kNRC7XttEX5-KXLRrx3A/1707800225-64315Lzayu.JPG/w=350" alt="GIRL" />
-                        @endif
-                    </div>
-                    <div class="tech_text two">
-                        <h2>Girl's Fashion</h2>
-                        <p>
-                            Discover our enchanting girls' fashion collection, designed to
-                            bring style and comfort to every occasion. From adorable
-                            Dresses and Jumpsuits to playful Co-ords and Multipacks,
-                            dressing up has never been more fun.
-                        </p>
-                        <p>
-                            Our collection offers cozy Sweatshirts, Hoodies, and snug
-                            Nightwear, perfect for keeping her warm and comfortable.
-                            Explore trendy Jeans, Dungarees, Leggings, and Joggers for
-                            versatile options that suit her active lifestyle.
-                        </p>
-                        <p>
-                            Mix and match with our stylish Tops and T-Shirts for endless
-                            outfit possibilities, or stay cool with our charming Shorts.
-                            Complete her look with our fashionable Trousers, crafted for
-                            both play and special occasions.
-                        </p>
-                    </div>
-                </div>
+
             </div>
         </div>
     </div>

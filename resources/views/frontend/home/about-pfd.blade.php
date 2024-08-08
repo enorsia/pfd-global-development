@@ -9,30 +9,12 @@
                 </div>
                 <div class="heading_text">
                     <p>
-                        Welcome to PFD Global Company Ltd - since 2022, we have been
-                        dynamic in the fashion industry and working closely with our
-                        customers and suppliers, to ensure proximity of products in the
-                        value chain, apart from our headquarters in Germany we are
-                        representing in Dhaka office, Bangladesh.
+                        At PFD Global, we are more than just a company - we are a family of passionate individuals dedicated to revolutionizing the fashion industry. We have been at the forefront of innovation, working tirelessly to bridge the gap between cutting-edge design and sustainable practices.
                     </p>
                     <p>
-                        At PFD Global, our mission is to offer exclusive products for
-                        women, men, children, and sports, with a clear focus on
-                        development and procurement.
+                        Our company maintains an efficient management system & extensive production facilities in Bangladesh along with overseas manufacturing facilities in several countries like Pakistan, China & Jordan (Duty-free country) which are all supervised by our dedicated PFD offices.
                     </p>
-                    <p>
-                        We operate with a strong customer-centric approach, ensuring the
-                        best service, innovation, and products of the highest quality,
-                        regardless of your location.
-                    </p>
-                    <p>
-                        In addition to quality and reliability, sustainability is a
-                        fundamental aspect of our corporate philosophy. Products from
-                        PFD Global adhere to the highest environmental and social
-                        standards, and we actively advocate for sustainable production.
-                        Together, we are creating a basis for a better and more
-                        conscientious future.
-                    </p>
+
                 </div>
             </div>
         </div>

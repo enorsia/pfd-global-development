@@ -2,14 +2,12 @@
 <div id="location">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-12 text-center">
+            <div class="col-xl-8 col-lg-10 col-md-12 col-12 text-center">
                 <div class="location_title">
                     <h2>Find Our Offices Across the Globe</h2>
                     <span class="global_underline"><i class="fa-regular fa-snowflake"></i></span>
                     <p>
-                        Discover our global presence with offices in Dhaka, Vancouver,
-                        London, Fritzlar, and Lahore. Our international network ensures
-                        seamless collaboration and innovation worldwide.
+                        We have offices in five countries: Bangladesh (Dhaka), Canada (Vancouver), UK (London), Germany (Fritzlar), Pakistan (Lahore). Our teams work together across these locations to create new ideas and serve clients worldwide.
                     </p>
                 </div>
             </div>

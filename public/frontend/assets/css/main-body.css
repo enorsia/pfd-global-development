@@ -88,7 +88,7 @@ padding-right: 50px;
     width: 50%;
 }
 .tech_img img{
-    width:500px;
+    width:100%;
     height: auto;
 }
 #tech_two{
@@ -389,7 +389,7 @@ padding-right: 50px;
 .map_body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 30px;
+    grid-gap: 10px;
     margin-top: 30px;
 }
 .map_item_bottom iframe{
@@ -493,6 +493,9 @@ color: blue;
     }
     .box_items img {
         width: 135px !important;
+    }
+    .box_items {
+        min-height: 130px;
     }
     .process_body .process_item {
         padding: 40px;
@@ -665,7 +668,7 @@ color: blue;
         font-size: 25px;
     }
     .box_items img {
-        width: 120px !important;
+        width: 190px !important;
     }
     .tech_text {
         padding-right: 30px;
@@ -849,6 +852,10 @@ color: blue;
         font-size: 20px;
         margin-bottom: 10px;
     }
+
+    .box_items img {
+        width: 120px !important;
+    }
     .process_title h2 {
         font-size: 20px;
         margin-bottom: 10px;
@@ -879,6 +886,9 @@ color: blue;
     }
     #partner {
         padding: 40px 0px 40px 0px;
+    }
+    .partner_body {
+        grid-template-columns: repeat(2, 1fr);
     }
     #card {
         padding: 40px 0px 40px 0px;
@@ -932,7 +942,7 @@ color: blue;
         padding-bottom: 20px;
     }
     .map_item{
-        margin-top: 15px;
+        margin-top: 0px;
     }
     .map_item_bottom iframe {
         height: 300px;
@@ -1006,6 +1016,14 @@ color: blue;
     #partner {
         padding: 30px 0px 30px 0px;
     }
+    .partner_body {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+    .partner_logo img {
+        width: 100%;
+        height: auto;
+    }
     .partner_title h2 {
         font-size: 17px;
         margin-bottom: 5px;
@@ -1048,6 +1066,13 @@ color: blue;
         font-size: 16px;
         margin-bottom: 5px;
     }
+    .box_items {
+        min-height: 90px;
+    }
+    .box_items {
+        margin: 5px;
+        padding: 25px 10px;
+    }
     .box_items img {
         width: 90px !important;
     }
@@ -1059,6 +1084,12 @@ color: blue;
     }
     #img_box .owl-carousel .owl-nav button.owl-next {
         right: -10px;
+    }
+    .img_box_top_title p {
+        font-size: 14px;
+        line-height: 27px;
+        margin-top: 7px;
+        text-align: justify;
     }
     .contact_title {
         margin: 20px 0px 20px 0px;
