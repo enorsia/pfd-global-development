@@ -16,11 +16,20 @@
             <div class="col-12">
                 <div class="" id="map_two">
                     {{-- <iframe src="https://www.google.com/maps/d/embed?mid=1jYuZJ4Y-Rr28DEym5VwBC1IdsqJkyl0&hl=en&ehbc=2E312F" width="1200" height="480"></iframe> --}}
-                    <iframe
+                    {{-- <iframe
   src="https://www.google.com/maps/d/embed?mid=1jYuZJ4Y-Rr28DEym5VwBC1IdsqJkyl0&hl=en&ll=-2.5444437451708134e-14,-94.34314713595559&z=2"
 
   height="680"
-></iframe>
+></iframe> --}}
+
+                    <div style="position: relative; width: 100%; height: 580px;">
+                        <iframe
+                            src="https://www.google.com/maps/d/embed?mid=1jYuZJ4Y-Rr28DEym5VwBC1IdsqJkyl0&hl=en&ll=-2.5444437451708134e-14,-94.34314713595559&z=2"
+                            width="100%" height="780" style="border: 0;">
+                        </iframe>
+                        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 60px; background: white;">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

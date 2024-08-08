@@ -882,6 +882,10 @@ color: blue;
 }
 @media (max-width: 575px){
 
+
+
+    /**************/
+
     #heading {
         padding: 30px 0px 0px 0px;
     }
