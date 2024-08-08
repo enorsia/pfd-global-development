@@ -32,13 +32,9 @@
                         <div class="contents">
                             <div class="tab_item web" id="tab_one">
                                 <div class="tab_item_top text-center">
-                                    <h2>we welcome unusual manufacturing requirements</h2>
+                                    <h2>Specializing in Custom Manufacturing Solutions</h2>
                                     <p>
-                                        One of PFD-Global key strengths is our willingness and
-                                        our operational versatility to meet each customer's
-                                        unique manufacturing requirements. No matter what your
-                                        brand's needs are, we will do everything in our power to
-                                        deliver this for you.
+                                        At PFD-Global Manufacturing, our core strength lies in our adaptability and commitment to meeting each client's specific production needs. We understand that every brand has its own set of requirements, and we're dedicated to delivering solutions that perfectly align with these demands.
                                     </p>
                                     <p>
                                         To support this we provide Design & Development Studios
